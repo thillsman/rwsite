@@ -4302,6 +4302,12 @@ a.list-group-item.active > .badge,
   text-align: center;
   margin-bottom: 0px;
 }
+.jumbotron h2 {
+  line-height: .5;
+  color: inherit;
+  text-align: center;
+  margin-bottom: 20px;
+}
 .jumbotron p {
   line-height: 1.4;
   text-align: center;
@@ -6085,3 +6091,9 @@ td.visible-print {
   -webkit-transition: height 0.35s ease;
   transition: height 0.35s ease;
 }
+.centered-pills { text-align:center; }
+.centered-pills ul.nav-pills { display:inline-block; }
+.centered-pills li { display:inline; }
+.centered-pills a { float:left; }
+* html .centered-pills ul.nav-pills { display:inline; } /* IE6 */
+*+html .centered-pills ul.nav-pills { display:inline; } /* IE7 */
