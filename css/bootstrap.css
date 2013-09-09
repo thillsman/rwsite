@@ -3316,7 +3316,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15px;
+  padding: 10px 10px;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -3396,11 +3396,19 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-tabs.nav-justified > .active > a {
   border-bottom-color: #ffffff;
 }
+.nav-pills a {
+  color: rgb(86,87,89);
+  text-decoration: none;
+}
+.nav-pills a:focus {
+  color: #000000;
+  text-decoration: none;
+}
 .nav-pills > li {
   float: left;
 }
 .nav-pills > li > a {
-  border-radius: 5px;
+  /*border-radius: 5px;*/
 }
 .nav-pills > li + li {
   margin-left: 2px;
@@ -3408,8 +3416,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-  color: #ffffff;
-  background-color: #428bca;
+  /*color: #ffffff;
+  background-color: #428bca;*/
+  color:rgb(247,123,47);
 }
 .nav-stacked > li {
   float: none;
@@ -4281,7 +4290,7 @@ a.badge:focus {
 }
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #428bca;
+  color: rgb(247,123,47);
   background-color: #ffffff;
 }
 .nav-pills > li > a > .badge {
